@@ -83,12 +83,10 @@
   padding: 12px;
   font-weight: 600;
   border-radius: 10px;
-  margin: 5px;
 }
 .clock__boxes {
   display: grid;
   justify-content: center;
-  margin: 5px;
 }
 body {
   background-color: #f8fafc;
@@ -232,4 +230,41 @@ form .form-control:focus {
 main {
   --width: 100%;
   width: calc(--widt);
+}
+@media only screen and (min-width: 100px) and (max-width: 600px)  {
+
+  .card__btn{
+    margin:120px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 760px)  {
+
+  .card__btn{
+    margin:200px;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px)  {
+
+  .card__btn{
+    margin: 10px;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1400px)  {
+
+  .card__btn{
+    margin: -10px;
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1500px)  {
+
+  .card__btn{
+    margin: 30px;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1800px)  {
+
+  .card__btn{
+    margin: 50px;
+  }
 }
